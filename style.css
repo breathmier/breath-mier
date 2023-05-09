@@ -185,14 +185,14 @@ body {
 }
 
 .operators {
-    color: yellow;
+    color: red;
     background-color: black;
     font-size: large;
     font-weight: bold;
 }
 
 .numbers, .empty {
-    color : blue(26, 240, 26);
+    color : rgb(26, 240, 26);
     background-color: black;
     font-size: large;
     font-weight: bold;
@@ -211,17 +211,17 @@ body {
 }
 
 .operators:hover {
-    color : blue(26, 240, 26);
+    color : rgb(26, 240, 26);
     font-size: medium;
 }
 
 .numbers:hover {
-    color: yellow;
+    color: red;
     font-size: medium;
 }
 
 .fa-twitter-square, .fa-github-square {
-    color : blue(26, 240, 26);
+    color : rgb(26, 240, 26);
 }
 
 .fa-twitter-square:hover , .fa-github-square:hover {
